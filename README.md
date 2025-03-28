@@ -12,7 +12,7 @@ cd AgenticRestaurantAdvisor
 
 ## 📂 Añadir los archivos necesarios
 
-1. Pega el archivo `restaurant_processed.csv` dentro de `./api/` en el repositorio:
+1. Pega el archivo `restaurant_processed.csv` dentro de `./api` en el repositorio:
 
 
 2. Configura la clave de API de OpenAI en el archivo `.env`, modificando la variable OPENAI_API_KEY.
