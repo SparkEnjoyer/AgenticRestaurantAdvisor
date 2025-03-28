@@ -6,8 +6,8 @@ Este proyecto utiliza Docker para su despliegue y requiere configurar algunas de
 ## 📥 Clonar el repositorio
 
 ```sh
-git clone <URL_DEL_REPOSITORIO>
-cd <NOMBRE_DEL_REPOSITORIO>
+git clone https://github.com/SparkEnjoyer/AgenticRestaurantAdvisor
+cd AgenticRestaurantAdvisor
 ```
 
 ## 📂 Añadir los archivos necesarios
