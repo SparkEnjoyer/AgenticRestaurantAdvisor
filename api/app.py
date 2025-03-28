@@ -130,14 +130,14 @@ search_tool = Tool(
 # Endpoint para responder en streaming
 @app.get("/chat")
 async def chat(query: str, session_id: str):
-    print(session_id)
+    
     messages = load_conversation(session_id)
-    print(messages)
+    
 
     memory = ConversationBufferMemory(memory_key="chat_history")
 
     memory = load_memory_history(memory, messages)
-    print(memory.chat_memory.messages)
+    
 
     agent = initialize_agent(
         tools=[search_tool],
