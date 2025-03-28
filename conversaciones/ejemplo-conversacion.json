@@ -1,0 +1,44 @@
+{
+    "messages": [
+        {
+            "role": "bot",
+            "text": "¡Hola! Soy tu asistente gastronómico. ¿En qué puedo ayudarte hoy?"
+        },
+        {
+            "role": "user",
+            "text": "Hola, quiero recomendaciones de restaurantes vegetarianos."
+        },
+        {
+            "role": "bot",
+            "text": "¡Perfecto! ¿Tienes alguna ciudad en mente?"
+        },
+        {
+            "role": "user",
+            "text": "Sí, me gustaría alguno en Valencia."
+        },
+        {
+            "role": "bot",
+            "text": "En Valencia hay opciones muy interesantes. ¿Tienes un presupuesto aproximado?"
+        },
+        {
+            "role": "user",
+            "text": "Prefiero algo asequible, no demasiado caro."
+        },
+        {
+            "role": "bot",
+            "text": "Entendido. Te recomiendo un lugar llamado 'GreenLife'. Tiene menú vegetariano y es bastante económico."
+        },
+        {
+            "role": "user",
+            "text": "Genial, suena bien. ¿Puedes darme más detalles de la ubicación?"
+        },
+        {
+            "role": "user",
+            "text": "restaurantes cerca de Lavapiés, Madrid"
+        },
+        {
+            "role": "bot",
+            "text": "Los restaurantes más cercanos a Lavapiés, Madrid son:\n\n1. La Cocina de Lavapiés - Calle de Lavapiés 42 Barrio de Lavapiés 28012 Madrid\n2. Sabores Urbanos - Calle de Lavapiés 33 Barrio de Lavapiés 28012 Madrid\n3. El Paladar - Calle de Lavapiés 20 Barrio de Lavapiés 28012 Madrid\n4. Café Lavapiés - Calle de Lavapiés 5 Barrio de Lavapiés 28012 Madrid\n5. La Ruta del Sabor - Calle de Lavapiés 12 Barrio de Lavapiés 28012 Madrid\n\n¡Espero que disfrutes tu comida! 🍽️\n"
+        }
+    ]
+}

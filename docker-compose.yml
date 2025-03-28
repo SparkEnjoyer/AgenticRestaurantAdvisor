@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ./api
+    ports:
+      - "7900:7900"
+    networks:
+      - chatbot_network
+    volumes:
+      - ./conversaciones:/app/conversaciones  # Monta la carpeta ./api/conversaciones en tu máquina local al contenedor en /api/conversaciones
+    env_file:
+      - .env
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "8501:8501"
+    networks:
+      - chatbot_network
+
+networks:
+  chatbot_network:
+    driver: bridge
